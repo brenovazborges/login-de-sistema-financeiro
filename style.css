@@ -1,17 +1,25 @@
 form{
     text-align: left;
-    margin-top: 10%;
+    border: solid 2px white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 6px;
+    background-image: linear-gradient(#8205bc, #49006a);
 }
 
 .fa-solid{
     font-size: 50px;
     margin-top: 20%;
+    margin-bottom: 5%;
     color: #DAA520;
 	
 }
 
 body{
-    background-color: 	#0d3c11;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .form-label{
@@ -26,7 +34,6 @@ font-size: 20px;
 .btn{
     width: 40%;
     margin-top: 20px;
-    
 }
 
 #h1_cad_user{
