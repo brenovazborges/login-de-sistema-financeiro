@@ -3,9 +3,14 @@ form{
     border: solid 2px white;
     padding: 25px;
     border-radius: 20px;
-    box-shadow: 10px 10px 6px;
+    box-shadow: 10px 10px 20px rgb(4, 192, 255);
 }
 
+a{
+    text-transform: none;
+    color: white;
+    text-decoration: none;
+}
 
 
 
@@ -14,6 +19,7 @@ form{
     margin-top: 20%;
     margin-bottom: 5%;
     color: #20da7d;
+    text-shadow: 3px 4px 7px black;
 
 }
 
@@ -43,5 +49,6 @@ font-size: 20px;
     text-align: center;
     -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
+  text-shadow: 3px 3px 1px black;
 }
 
