@@ -24,8 +24,8 @@ a{
 }
 
 body{
-    background-image: none;
-    background-color: bisque;
+
+    background-color: rgb(161, 86, 231);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
