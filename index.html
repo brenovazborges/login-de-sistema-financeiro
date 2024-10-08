@@ -16,17 +16,17 @@
     </div>
     <div class="col-sm12 col-md-5">
       <i class="fa-solid fa-money-bill"></i>  
-      <form>
+      <form action="php/logon.php" method="post">
           <h1 id="h1_cad_user"> TELA DE LOGIN</h1>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" name="emaillogin" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="password" class="form-control" name="passwordlogin" id="exampleInputPassword1">
           </div>
-          <a style="margin-left: 10% ;" class="btn btn-primary" href="#" role="button">Entrar</a>
+          <button type="submit" class="btn btn-primary">Entrar </button>
           <a href="cad_usuario.html" type="button" class="btn btn-danger">cadastro</a>
         </form>
     </div>

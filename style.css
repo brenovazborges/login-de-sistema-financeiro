@@ -49,10 +49,11 @@ font-size: 20px;
     color: white;
     text-align: center;
     -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
-  text-shadow: 3px 3px 1px black;
+    -webkit-text-stroke-color: black;
+    text-shadow: 3px 3px 1px black;
 }
 
 .tipo {
     accent-color: rgb(151, 27, 151);
 }
+
