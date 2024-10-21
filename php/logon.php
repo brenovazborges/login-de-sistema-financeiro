@@ -24,7 +24,7 @@ $senha_banco = $result['senha'];
 if($email == $email_banco && $senhalogin == $senha_banco){
     header ('location: ../tela_inicial.html');
 } else {
-    echo "<script> alert('Usuário ou senha inválida'); history_back(); </script>";
+    echo "<script> alert('Usuário ou senha inválida'); history.back(); </script>";
 }
 
 ?>

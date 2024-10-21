@@ -1,3 +1,10 @@
+body{
+
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 form{
     text-align: left;
     border: solid 2px white;
@@ -23,13 +30,6 @@ a{
 
 }
 
-body{
-
-    background-image: url('img/bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 .form-label{
 color: azure;
