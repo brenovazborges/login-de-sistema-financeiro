@@ -16,28 +16,26 @@
     </div>
     <div class="col-sm12 col-md-5">
       <i class="fa-solid fa-money-bill"></i>  
-      <form>
+      <form action="php/lancamento.php" method="post">
         <h1 id="h1_cad_user"> CATEGORIA</h1>
+            
             <div class="mb-3">
-              <label for="data" class="form-label">Data</label>
-              <input type="date" class="form-control" id="data" name="data" aria-describedby="emailHelp">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="namelanc" name="namelanc" aria-describedby="emailHelp">
             </div>
-            <h4 style="color: white; text-align: center;">TIPO</h4>
-            <div class="mb-3">
-              <input type="radio" class="type tipo" id="tipo" name="tipo" aria-describedby="emailHelp">
-              <label for="tipo" class="form-label">Despesa</label>
-            </div>
-            <div class="mb-3">
-              <input type="radio" class="type tipo" id="tipo" name="tipo" aria-describedby="emailHelp">
-              <label for="tipo" class="form-label">Receita</label>
-            </div>
+
             <div class="mb-3">
               <label for="descrição" class="form-label">Descrição</label>
-              <input type="text" class="form-control" id="descrição" name="descrição" aria-describedby="emailHelp">
+              <input type="text" class="form-control" id="descriptionlanc" name="descriptionlanc" aria-describedby="emailHelp">
             </div>
-            <a style="margin-left: 10% ;" class="btn btn-primary" href="cad_usuario.html" role="button">voltar</a>
-            <a href="lancamento.html" type="button" class="btn btn-danger">próximo
-            </a>
+          
+            <div class="mb-3">
+              <label for="categoria" class="form-label">Tipo de Categoria</label>
+              <input type="number" class="form-control" id="catlanc" name="catlanc" aria-describedby="emailHelp">
+            </div>
+
+            <a style="margin-left: 10% ;" class="btn btn-danger" href="tela_inicial.html" role="button">voltar</a>
+            <a href="lancamento.html" type="submit" class="btn btn-success">Lançar Categoria</a>
           </form>
     </div>
     </div>
