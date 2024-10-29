@@ -26,5 +26,4 @@ if($email == $email_banco && $senhalogin == $senha_banco){
 } else {
     echo "<script> alert('Usuário ou senha inválida'); history.back(); </script>";
 }
-
 ?>
