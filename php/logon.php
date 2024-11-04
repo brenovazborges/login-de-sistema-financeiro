@@ -21,8 +21,14 @@ print_r($result);
 $email_banco = $result['email'];
 $senha_banco = $result['senha'];
 
-if($email == $email_banco && $senhalogin == $senha_banco){
-    header ('location: ../tela_inicial.html');
+if($email == null && $senhalogin == null){
+    echo  "<script> alert ('Nada inserido em um dos campos'); history.back(); </script>" ;
+}
+
+else if($email == $email_banco && $senhalogin == $senha_banco){
+    session_start();
+    $_SESSION['id'] = $result['id_usuario'];
+    header ('location: ../tela_inicial.php');
 } else {
     echo "<script> alert('Usuário ou senha inválida'); history.back(); </script>";
 }
