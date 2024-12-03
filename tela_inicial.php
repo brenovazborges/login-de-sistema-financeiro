@@ -31,6 +31,7 @@
     <a class="btn btn-danger" href="index.html" role="button">Voltar ao login</a>
     <a class="btn btn-success" href="lancamento.html" role="button">Lançamento</a>
     <a class="btn btn-warning" href="categoria.html" role="button">Categoria</a>
+    <a class="btn btn-warning" href="listar_user.php" role="button">Usuários</a>
 
 </body>
 </html>

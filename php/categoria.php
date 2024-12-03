@@ -14,7 +14,4 @@ if($conexao ->query($sql)) {
     echo "Falha na comunicação de dados";
 }
 
-
-
-
 ?>
